@@ -156,18 +156,18 @@ function loop() {
     }
 
     //Rendering Text
-    ctx.fillStyle = 'green';
-    ctx.font = "11pt Arial";
-    ctx.fillText("Number of Balls: " + balls.length, 0, 16);
-    ctx.fillText("Drag Coefficient: " + drag.value, 0, 32);
-    ctx.fillText("Fluid Density: " + density.value + " kg/m^3", 0, 48);
-    ctx.fillText("Acceleration due to gravity: " + gravity.value + " g", 0, 64);
-    ctx.fillText("Room Width: " + width / 1000 + " m", 0, 80);
-    ctx.fillText("Room Height: " + height / 1000 + " m", 0, 96);
-    ctx.fillText("Mouse X: " + mouse.x, 0, 112);
-    ctx.fillText("Mouse Y: " + mouse.y, 0, 128);
-    ctx.fillText("Total Rooms: " + room_track, 0, 144);
-    ctx.fillText("Current Room: " + (current_room + 1), 0, 160);
+    // ctx.fillStyle = 'green';
+    // ctx.font = "11pt Arial";
+    // ctx.fillText("Number of Balls: " + balls.length, 0, 16);
+    // ctx.fillText("Drag Coefficient: " + drag.value, 0, 32);
+    // ctx.fillText("Fluid Density: " + density.value + " kg/m^3", 0, 48);
+    // ctx.fillText("Acceleration due to gravity: " + gravity.value + " g", 0, 64);
+    // ctx.fillText("Room Width: " + width / 1000 + " m", 0, 80);
+    // ctx.fillText("Room Height: " + height / 1000 + " m", 0, 96);
+    // ctx.fillText("Mouse X: " + mouse.x, 0, 112);
+    // ctx.fillText("Mouse Y: " + mouse.y, 0, 128);
+    // ctx.fillText("Total Rooms: " + room_track, 0, 144);
+    // ctx.fillText("Current Room: " + (current_room + 1), 0, 160);
 }
 
 function collisionWall(ball) {
